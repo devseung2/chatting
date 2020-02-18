@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.padding-top-04 {
+  padding-top: 0.4em;
+}
+
+.padding-top-1 {
+  padding-top: 1em;
+}
+
+.padding-left-1 {
+  padding-left: 1em;
+}
+
+.padding-top-btm-1 {
+  padding : 1em 0;
+}
+
+.font-color-black {
+  color: #000;
+}
+
+.font-bold-700 {
+  font-weight: 700;
+}
+
+.pageTitle {
+  font-size: 1.5em;
+  font-weight: 700;
+}

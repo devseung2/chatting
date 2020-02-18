@@ -1,0 +1,30 @@
+.chatTitle {
+    .exitBtn {
+        margin-left: 200px;
+
+        span {
+            color : #fff;
+            font-weight: 800;
+        }
+    }
+
+    .chatName {
+        display: flex;
+        justify-content: space-between;
+        font-size : 1em;
+        font-weight : 800; 
+        color : #fff; 
+    }
+    
+    .userId, .userId:hover, .userId:not(hover) {
+        color: #bbb;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+
+    .receiver {
+        color: #fff;
+        font-weight: 800;
+        padding-left: 10px;
+    }
+}

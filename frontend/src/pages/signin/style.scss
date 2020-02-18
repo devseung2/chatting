@@ -1,0 +1,14 @@
+$background-color-gray : #F5F5F5;
+
+.Signin{
+    display: flex;
+    height: 720px;
+    align-items: center;
+    justify-content: center;
+    background-color: $background-color-gray;
+}
+
+.signupBtn:hover {
+    color: #000;
+    text-decoration: none;
+  }

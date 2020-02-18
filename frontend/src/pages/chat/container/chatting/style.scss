@@ -1,0 +1,50 @@
+.chat {
+	height : 700px;
+	text-align: left;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	
+	.chatTitle {
+		height: 130px;
+		border-top-left-radius: .25rem;
+		border-top-right-radius: .25rem;
+		background-color: #333;
+	}
+
+	.chatBody {
+		height: 100%;
+		background-color : #222;
+		overflow-y: scroll;
+	}
+
+	.chatBtm {
+		height : 230px;
+		border-bottom-left-radius: .25rem;
+		border-bottom-right-radius: .25rem;
+		background-color : #333;
+	}
+}
+
+@media screen and (max-height: 812px) { 
+	.chat {
+		height : 730px;
+	}
+}
+
+@media screen and (max-height: 736px) { 
+	.chat {
+		height : 650px;
+	}
+}
+
+@media screen and (max-height: 667px) { 
+	.chat {
+		height : 600px;
+	}
+}
+
+@media screen and (max-height: 568px) { 
+	.chat {
+		height : 500px;
+	}
+}

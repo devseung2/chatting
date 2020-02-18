@@ -1,0 +1,16 @@
+$title-font-bold : 900;
+$dropdown-userId-bold : 700;
+$dropdown-userId-color : #000;
+
+.Title {
+    font-weight: $title-font-bold;
+}
+
+.DropdownBtn {
+    text-align: center !important;
+
+    .UserId {
+        font-weight: $dropdown-userId-bold;
+        color: $dropdown-userId-color ;
+    }
+}

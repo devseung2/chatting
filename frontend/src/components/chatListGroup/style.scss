@@ -1,0 +1,26 @@
+.chatBody {
+    .msgUserId {
+        cursor : pointer;
+        color: #fff;
+        font-size: 1rem;
+    }
+    
+    .msg {
+        margin : 0.3rem 0;
+    
+        .myMsgContent {
+            font-weight : 700; 
+            background-color : #ffff00;
+        }
+        .msgContent {
+            font-weight : 700; 
+        }
+    }
+    .msgDate {
+        margin-bottom : 0.5rem;
+        font-weight: 500;
+        color: #fff;
+        font-size: 0.7rem;
+        text-align: right;
+    }
+}
